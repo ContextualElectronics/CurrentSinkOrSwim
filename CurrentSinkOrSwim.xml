@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/chrisg/PCBs/CurrentSinkOrSwim/CurrentSinkOrSwim.sch</source>
+    <date>Mon 02 Mar 2015 11:01:42 PM EST</date>
+    <tool>Eeschema 0.201502211246+5439~21~ubuntu14.04.1-product</tool>
+  </design>
+  <components>
+    <comp ref="P103">
+      <value>CONN_01X02</value>
+      <footprint>Current:Terminal_Block_200_mil</footprint>
+      <fields>
+        <field name="MPN">OSTTC022162</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CEA02B</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D855F7</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>CONN_01X02</value>
+      <footprint>Current:Terminal_Block_200_mil</footprint>
+      <fields>
+        <field name="MPN">OSTTC022162</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54D858EB</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>LMV358</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <fields>
+        <field name="MPN">LMV358IDT</field>
+      </fields>
+      <libsource lib="CurrentSinkOrSwim" part="LMV358"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1D03</tstamp>
+    </comp>
+    <comp ref="R201">
+      <value>28.7K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1D0A</tstamp>
+    </comp>
+    <comp ref="RV201">
+      <value>10K</value>
+      <footprint>Current:P090L-02F25BR10K</footprint>
+      <fields>
+        <field name="MPN">P090L-02F25BR10K</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1D22</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>.1</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1D32</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>1N4148</value>
+      <footprint>SMD_Packages:SOD-523</footprint>
+      <datasheet>http://www.diodes.com/datasheets/ds30396.pdf</datasheet>
+      <fields>
+        <field name="MPN">1N4148WT-7</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1E38</tstamp>
+    </comp>
+    <comp ref="R202">
+      <value>9K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1EC2</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>1K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Voltage Control/" tstamps="/54DACEE9/"/>
+      <tstamp>54DB1F3A</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>.1</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF10D</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>.1</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF114</tstamp>
+    </comp>
+    <comp ref="R301">
+      <value>0</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MPN">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF11D</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>LM2931</value>
+      <footprint>SMD_Packages:SOIC-8-N</footprint>
+      <fields>
+        <field name="MPN">LM2931D-R</field>
+      </fields>
+      <libsource lib="CurrentSinkOrSwim" part="LM2931D-R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF12F</tstamp>
+    </comp>
+    <comp ref="R302">
+      <value>27K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MPN">Value</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF13B</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>21.6K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Power Regulation/" tstamps="/54DACF20/"/>
+      <tstamp>54DAF142</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>.1</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM15mm</footprint>
+      <fields>
+        <field name="MPN">AC01000001007JA100</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DADC66</tstamp>
+    </comp>
+    <comp ref="Q401">
+      <value>BUK9575</value>
+      <footprint>Transistors_TO-220:TO-220_FET-GDS_Vertical</footprint>
+      <fields>
+        <field name="MPN">BUK9575-100A,127</field>
+      </fields>
+      <libsource lib="device" part="MOSFET_N"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DADC74</tstamp>
+    </comp>
+    <comp ref="RV401">
+      <value>10K</value>
+      <footprint>Current:P090L-02F25BR10K</footprint>
+      <fields>
+        <field name="MPN">P090L-02F25BR10K</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DADC9B</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>1K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DAE31B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>HEATSINK</value>
+      <footprint>Current:FA-T220-38E</footprint>
+      <fields>
+        <field name="MPN">FA-T220-38E</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DFC527</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>68K</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/Current Control/" tstamps="/54DACF0C/"/>
+      <tstamp>54DADC7B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <docs>transistors/mos/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CurrentSinkOrSwim" part="LM2931D-R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2931D-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VO" type="power_out"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="ADJ" type="input"/>
+        <pin num="5" name="INHB" type="power_out"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="CurrentSinkOrSwim" part="LMV358">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMV358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="CurrentSinkOrSwim">
+      <uri>/home/chrisg/PCBs/CurrentSinkOrSwim/CurrentSinkOrSwim.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Current Control/FET_Gate">
+      <node ref="Q401" pin="G"/>
+      <node ref="D201" pin="1"/>
+      <node ref="R402" pin="1"/>
+    </net>
+    <net code="2" name="/Power Regulation/Vin">
+      <node ref="U301" pin="8"/>
+      <node ref="P102" pin="2"/>
+      <node ref="C301" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C201" pin="2"/>
+      <node ref="RV201" pin="3"/>
+      <node ref="RV401" pin="2"/>
+      <node ref="R403" pin="2"/>
+      <node ref="U301" pin="2"/>
+      <node ref="R303" pin="2"/>
+      <node ref="U301" pin="7"/>
+      <node ref="C301" pin="2"/>
+      <node ref="C302" pin="2"/>
+      <node ref="R301" pin="2"/>
+      <node ref="U301" pin="3"/>
+      <node ref="U301" pin="6"/>
+      <node ref="P101" pin="2"/>
+      <node ref="R203" pin="2"/>
+      <node ref="P103" pin="2"/>
+      <node ref="U201" pin="4"/>
+    </net>
+    <net code="4" name="Net-(P101-Pad1)">
+      <node ref="P101" pin="1"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="5" name="/Current Control/Current_Sink+">
+      <node ref="P103" pin="1"/>
+      <node ref="Q401" pin="D"/>
+      <node ref="R202" pin="1"/>
+      <node ref="P102" pin="3"/>
+    </net>
+    <net code="6" name="Net-(D201-Pad2)">
+      <node ref="D201" pin="2"/>
+      <node ref="U201" pin="1"/>
+    </net>
+    <net code="7" name="Net-(R202-Pad2)">
+      <node ref="U201" pin="2"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R202" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R201-Pad2)">
+      <node ref="R201" pin="2"/>
+      <node ref="RV201" pin="2"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="9" name="Net-(RV201-Pad1)">
+      <node ref="RV201" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q401-PadS)">
+      <node ref="Q401" pin="S"/>
+      <node ref="R403" pin="1"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="11" name="Net-(R401-Pad2)">
+      <node ref="U201" pin="5"/>
+      <node ref="R401" pin="2"/>
+      <node ref="RV401" pin="1"/>
+    </net>
+    <net code="12" name="Net-(RV401-Pad3)">
+      <node ref="RV401" pin="3"/>
+    </net>
+    <net code="13" name="Net-(R402-Pad2)">
+      <node ref="U201" pin="7"/>
+      <node ref="R402" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="15" name="2.7V">
+      <node ref="C302" pin="1"/>
+      <node ref="U201" pin="8"/>
+      <node ref="C201" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="R302" pin="1"/>
+      <node ref="U301" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R301-Pad1)">
+      <node ref="R301" pin="1"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="17" name="Net-(R302-Pad2)">
+      <node ref="R303" pin="1"/>
+      <node ref="U301" pin="4"/>
+      <node ref="R302" pin="2"/>
+    </net>
+  </nets>
+</export>
