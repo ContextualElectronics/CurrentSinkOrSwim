@@ -1,23 +1,18 @@
-Reference, Value, Footprint, Datasheet, MPN
-P103,CONN_01X02,Current:Terminal_Block_200_mil,,OSTTC022162
-P102,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,
-P101,CONN_01X02,Current:Terminal_Block_200_mil,,OSTTC022162
-U201,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT
-R201,28.7K,SMD_Packages:SMD-0805,,
-RV201,10K,Current:P090L-02F25BR10K,,P090L-02F25BR10K
-C201,0.1,SMD_Packages:SMD-0805,,
-D201,1N4148,SMD_Packages:SOD-523,http://www.diodes.com/datasheets/ds30396.pdf,1N4148WT-7
-R202,9K,SMD_Packages:SMD-0805,,
-R203,1K,SMD_Packages:SMD-0805,,
-C301,0.1,SMD_Packages:SMD-0805,,
-C302,0.1,SMD_Packages:SMD-0805,,
-R301,0,SMD_Packages:SMD-0805,,
-U301,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R
-R302,27K,SMD_Packages:SMD-0805,,
-R303,21.6K,SMD_Packages:SMD-0805,,
-R403,0.1,Resistors_ThroughHole:Resistor_Horizontal_RM15mm,,AC01000001007JA100
-Q401,BUK9575,Transistors_TO-220:TO-220_FET-GDS_Vertical,,"BUK9575-100A,127"
-RV401,10K,Current:P090L-02F25BR10K,,P090L-02F25BR10K
-R402,1K,SMD_Packages:SMD-0805,,
-P1,HEATSINK,Current:FA-T220-38E,,FA-T220-38E
-R401,68K,SMD_Packages:SMD-0805,,
+Reference, Quantity, Value, Footprint, Datasheet, MPN
+"C201, C301, C302 ",3,0.1,SMD_Packages:SMD-0805,,
+D201 ,1,1N4148,SMD_Packages:SOD-523,http://www.diodes.com/datasheets/ds30396.pdf,1N4148WT-7
+P1 ,1,HEATSINK,Current:FA-T220-38E,,FA-T220-38E
+P102 ,1,CONN_01X03,Pin_Headers:Pin_Header_Straight_1x03,,
+"P101, P103 ",2,CONN_01X02,Current:Terminal_Block_200_mil,,OSTTC022162
+Q401 ,1,BUK9575,Transistors_TO-220:TO-220_FET-GDS_Vertical,,"BUK9575-100A,127"
+R201 ,1,28.7K,SMD_Packages:SMD-0805,,
+R202 ,1,9K,SMD_Packages:SMD-0805,,
+"R203, R402 ",2,1K,SMD_Packages:SMD-0805,,
+R301 ,1,0,SMD_Packages:SMD-0805,,
+R302 ,1,27K,SMD_Packages:SMD-0805,,
+R303 ,1,21.6K,SMD_Packages:SMD-0805,,
+R401 ,1,68K,SMD_Packages:SMD-0805,,
+R403 ,1,0.1,Resistors_ThroughHole:Resistor_Horizontal_RM15mm,,AC01000001007JA100
+"RV201, RV401 ",2,10K,Current:P090L-02F25BR10K,,P090L-02F25BR10K
+U201 ,1,LMV358,SMD_Packages:SOIC-8-N,,LMV358IDT
+U301 ,1,LM2931,SMD_Packages:SOIC-8-N,,LM2931D-R
